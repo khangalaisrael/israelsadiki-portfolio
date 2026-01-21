@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./App.css";
 
 function About() {
@@ -8,7 +9,7 @@ function About() {
       {/* NAVBAR */}
       <nav className="navbar">
         <img className="nav-logo" src="/profile_logo.png" alt="Israel Sadiki Logo" />
-        <a href="/" className="nav-link">Home</a>
+        <Link to="/" className="nav-link">Home</Link>
       </nav>
 
       <section className="about-section">
